@@ -3,6 +3,7 @@ f = lambda x: x**2
 
 print(f(3))
 
+# example declaration fonction
 def e_potentielle(masse,hauteur,e_limite,g=9.81):
     E = masse * hauteur * g
     if(E >= e_limite):
